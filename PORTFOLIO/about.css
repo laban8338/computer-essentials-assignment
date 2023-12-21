@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+}
+
+header {
+    background-color: #971642;
+    width: 100%;
+}
+
+.nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+.nav_links > a:hover {
+    color: #000;
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: none;
+    min-height: 85vh;
+}
+
+.about-image{
+    margin-right: 20px;
+}
+
+.about-image img {
+    width: 300px;
+    height: 400px;
+}
+
+.about-content {
+    align-items: center;
+    flex: 2;
+    margin-left: 100px; 
+}
+
+.about-content h2 {
+    color: white;
+}
+
+.about-content p {
+    line-height: 1.5;
+    color: aliceblue;
+}
+
+.about-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-content li{
+    color: aliceblue;
+}
+
+
+footer {
+    background-color: #AB1449;
+    color: white;
+    text-align: center;
+    padding: 10px 0 ;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.social-icons a i{
+    line-height: 30px;
+    font-size: 20px;
+    -webkit-transition: all 200ms;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms;
+    -moz-transform: scale(1);
+    transition: all 200ms;
+    transform: scale(1);
+}
+
+.social-icons a:hover i{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+
+}
